@@ -1,0 +1,776 @@
+{
+  "userprofile": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "role": "admin",
+      "phone": "",
+      "is_verified": false,
+      "date_of_birth": null,
+      "created_at": "2026-03-22T13:39:19.862Z"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "role": "patient",
+      "phone": "",
+      "is_verified": false,
+      "date_of_birth": null,
+      "created_at": "2026-03-22T13:39:20.223Z"
+    },
+    {
+      "id": 3,
+      "user_id": 3,
+      "role": "doctor",
+      "phone": "",
+      "is_verified": false,
+      "date_of_birth": null,
+      "created_at": "2026-03-22T13:39:20.582Z"
+    },
+    {
+      "id": 4,
+      "user_id": 5,
+      "role": "doctor",
+      "phone": "1234567890",
+      "is_verified": false,
+      "date_of_birth": null,
+      "created_at": "2026-03-24T15:40:50.725Z"
+    },
+    {
+      "id": 5,
+      "user_id": 6,
+      "role": "doctor",
+      "phone": "123456789",
+      "is_verified": false,
+      "date_of_birth": null,
+      "created_at": "2026-03-25T07:52:26.275Z"
+    },
+    {
+      "id": 7,
+      "user_id": 8,
+      "role": "patient",
+      "phone": "1234567891",
+      "is_verified": false,
+      "date_of_birth": null,
+      "created_at": "2026-03-25T08:04:25.546Z"
+    },
+    {
+      "id": 8,
+      "user_id": 9,
+      "role": "patient",
+      "phone": "1234567891",
+      "is_verified": true,
+      "date_of_birth": null,
+      "created_at": "2026-03-25T08:05:44.763Z"
+    },
+    {
+      "id": 9,
+      "user_id": 10,
+      "role": "patient",
+      "phone": "1234567891",
+      "is_verified": true,
+      "date_of_birth": null,
+      "created_at": "2026-03-25T10:01:55.238Z"
+    },
+    {
+      "id": 10,
+      "user_id": 11,
+      "role": "patient",
+      "phone": "",
+      "is_verified": true,
+      "date_of_birth": null,
+      "created_at": "2026-03-25T13:48:31.990Z"
+    },
+    {
+      "id": 11,
+      "user_id": 12,
+      "role": "patient",
+      "phone": "",
+      "is_verified": true,
+      "date_of_birth": null,
+      "created_at": "2026-03-25T13:48:49.586Z"
+    },
+    {
+      "id": 12,
+      "user_id": 13,
+      "role": "patient",
+      "phone": "",
+      "is_verified": true,
+      "date_of_birth": null,
+      "created_at": "2026-03-25T13:52:01.721Z"
+    }
+  ],
+  "patientprofile": [
+    {
+      "id": 1,
+      "user_id": 2,
+      "assigned_doctor_id": 3,
+      "procedure_name": "Knee Surgery",
+      "procedure_date": "2026-03-01",
+      "expected_recovery_days": 30,
+      "discharge_notes": ""
+    },
+    {
+      "id": 2,
+      "user_id": 8,
+      "assigned_doctor_id": 4,
+      "procedure_name": "Knee Surgery",
+      "procedure_date": "2026-03-26",
+      "expected_recovery_days": 30,
+      "discharge_notes": ""
+    },
+    {
+      "id": 3,
+      "user_id": 9,
+      "assigned_doctor_id": 6,
+      "procedure_name": "Knee Surgery",
+      "procedure_date": "2026-03-26",
+      "expected_recovery_days": 30,
+      "discharge_notes": ""
+    },
+    {
+      "id": 4,
+      "user_id": 10,
+      "assigned_doctor_id": null,
+      "procedure_name": "stomach upset",
+      "procedure_date": "2026-03-11",
+      "expected_recovery_days": 30,
+      "discharge_notes": ""
+    },
+    {
+      "id": 5,
+      "user_id": 13,
+      "assigned_doctor_id": 3,
+      "procedure_name": "Pending SSO Review",
+      "procedure_date": "2026-03-25",
+      "expected_recovery_days": 30,
+      "discharge_notes": ""
+    },
+    {
+      "id": 6,
+      "user_id": 12,
+      "assigned_doctor_id": null,
+      "procedure_name": "General Recovery",
+      "procedure_date": "2026-03-26",
+      "expected_recovery_days": 30,
+      "discharge_notes": ""
+    }
+  ],
+  "doctorprofile": [
+    {
+      "id": 1,
+      "user_id": 3,
+      "specialization": "Orthopedic Surgeon",
+      "hospital": "City Hospital",
+      "license_number": ""
+    },
+    {
+      "id": 2,
+      "user_id": 4,
+      "specialization": "Gen",
+      "hospital": "H",
+      "license_number": "1"
+    },
+    {
+      "id": 3,
+      "user_id": 5,
+      "specialization": "Orthopedic Surgeon",
+      "hospital": "General Hospital",
+      "license_number": "12345"
+    },
+    {
+      "id": 4,
+      "user_id": 6,
+      "specialization": "Gynocologist",
+      "hospital": "epstein island",
+      "license_number": "sigmamale"
+    }
+  ],
+  "recoverylog": [
+    {
+      "id": 7,
+      "patient_id": 2,
+      "date": "2026-03-27",
+      "pain_level": 8,
+      "sleep_quality": "good",
+      "swelling": "moderate",
+      "mobility": "normal",
+      "medication_taken": true,
+      "notes": "",
+      "mood": "okay",
+      "energy_level": 5,
+      "pain_locations": [],
+      "created_at": "2026-03-27T00:48:01.774Z"
+    },
+    {
+      "id": 6,
+      "patient_id": 2,
+      "date": "2026-03-26",
+      "pain_level": 4,
+      "sleep_quality": "good",
+      "swelling": "moderate",
+      "mobility": "limited",
+      "medication_taken": true,
+      "notes": "seververvrevervre",
+      "mood": "okay",
+      "energy_level": 5,
+      "pain_locations": [
+        "head_front"
+      ],
+      "created_at": "2026-03-26T03:56:01.858Z"
+    },
+    {
+      "id": 5,
+      "patient_id": 2,
+      "date": "2026-03-25",
+      "pain_level": 9,
+      "sleep_quality": "good",
+      "swelling": "severe",
+      "mobility": "bedridden",
+      "medication_taken": true,
+      "notes": "ouchhhh",
+      "mood": "okay",
+      "energy_level": 5,
+      "pain_locations": [],
+      "created_at": "2026-03-25T05:17:59.934Z"
+    },
+    {
+      "id": 1,
+      "patient_id": 2,
+      "date": "2026-03-22",
+      "pain_level": 7,
+      "sleep_quality": "poor",
+      "swelling": "severe",
+      "mobility": "limited",
+      "medication_taken": true,
+      "notes": "sample only 2",
+      "mood": "okay",
+      "energy_level": 5,
+      "pain_locations": [],
+      "created_at": "2026-03-22T13:53:45.820Z"
+    },
+    {
+      "id": 4,
+      "patient_id": 2,
+      "date": "2026-03-21",
+      "pain_level": 5,
+      "sleep_quality": "good",
+      "swelling": "none",
+      "mobility": "normal",
+      "medication_taken": true,
+      "notes": "",
+      "mood": "okay",
+      "energy_level": 5,
+      "pain_locations": [],
+      "created_at": "2026-03-22T14:19:23.035Z"
+    },
+    {
+      "id": 3,
+      "patient_id": 2,
+      "date": "2026-03-20",
+      "pain_level": 4,
+      "sleep_quality": "fair",
+      "swelling": "mild",
+      "mobility": "moderate",
+      "medication_taken": true,
+      "notes": "",
+      "mood": "okay",
+      "energy_level": 5,
+      "pain_locations": [],
+      "created_at": "2026-03-22T14:19:23.032Z"
+    },
+    {
+      "id": 2,
+      "patient_id": 2,
+      "date": "2026-03-19",
+      "pain_level": 2,
+      "sleep_quality": "good",
+      "swelling": "none",
+      "mobility": "normal",
+      "medication_taken": true,
+      "notes": "",
+      "mood": "okay",
+      "energy_level": 5,
+      "pain_locations": [],
+      "created_at": "2026-03-22T14:19:23.027Z"
+    }
+  ],
+  "alert": [
+    {
+      "id": 1,
+      "patient_id": 2,
+      "recovery_log_id": 5,
+      "severity": "high",
+      "alert_type": "general",
+      "message": "High pain level reported (9/10). | Severe swelling detected. Medical attention may be required. | Mobility reported as bedridden.",
+      "metadata": {},
+      "is_read_by_patient": true,
+      "is_read_by_doctor": true,
+      "status": "reviewed",
+      "resolved_by_id": null,
+      "resolved_at": null,
+      "resolution_note": "",
+      "created_at": "2026-03-25T05:17:59.941Z"
+    },
+    {
+      "id": 2,
+      "patient_id": 2,
+      "recovery_log_id": 6,
+      "severity": "high",
+      "alert_type": "pain",
+      "message": "Critical pain level reported: 10/10.",
+      "metadata": {
+        "avg_pain": 6.2,
+        "pain_level": 10
+      },
+      "is_read_by_patient": true,
+      "is_read_by_doctor": false,
+      "status": "pending",
+      "resolved_by_id": null,
+      "resolved_at": null,
+      "resolution_note": "",
+      "created_at": "2026-03-26T03:56:01.875Z"
+    },
+    {
+      "id": 3,
+      "patient_id": 2,
+      "recovery_log_id": 7,
+      "severity": "medium",
+      "alert_type": "general",
+      "message": "Test Alert: Remember to do your daily stretches and drink plenty of water.",
+      "metadata": {},
+      "is_read_by_patient": true,
+      "is_read_by_doctor": false,
+      "status": "pending",
+      "resolved_by_id": null,
+      "resolved_at": null,
+      "resolution_note": "",
+      "created_at": "2026-03-27T00:48:01.778Z"
+    }
+  ],
+  "caretemplate": [
+    {
+      "id": 1,
+      "title": "viral fever",
+      "category": "medication",
+      "content": "refer the prescription and use amoxycilin 2 times  day with dolo 650 every 6 hrs",
+      "created_by_id": 1,
+      "is_active": true,
+      "created_at": "2026-03-24T14:46:12.480Z"
+    },
+    {
+      "id": 2,
+      "title": "Headache",
+      "category": "pain",
+      "content": "take dolo",
+      "created_by_id": 1,
+      "is_active": true,
+      "created_at": "2026-03-25T10:12:10.896Z"
+    },
+    {
+      "id": 3,
+      "title": "LEG PAIN",
+      "category": "general",
+      "content": "use hot water and eucalyptus",
+      "created_by_id": 1,
+      "is_active": true,
+      "created_at": "2026-03-26T04:35:16.537Z"
+    }
+  ],
+  "doctormessage": [
+    {
+      "id": 1,
+      "doctor_id": 3,
+      "patient_id": 2,
+      "parent_id": null,
+      "alert_id": null,
+      "template_id": 1,
+      "custom_message": "amoxiciilin+ tetrizdazole",
+      "is_read": true,
+      "is_from_patient": false,
+      "created_at": "2026-03-24T15:04:15.504Z"
+    },
+    {
+      "id": 2,
+      "doctor_id": 3,
+      "patient_id": 2,
+      "parent_id": null,
+      "alert_id": null,
+      "template_id": null,
+      "custom_message": "Test from Patient",
+      "is_read": true,
+      "is_from_patient": true,
+      "created_at": "2026-03-24T15:33:37.997Z"
+    },
+    {
+      "id": 3,
+      "doctor_id": 3,
+      "patient_id": 2,
+      "parent_id": null,
+      "alert_id": null,
+      "template_id": null,
+      "custom_message": "Simulation: Help me!",
+      "is_read": true,
+      "is_from_patient": true,
+      "created_at": "2026-03-24T16:43:28.318Z"
+    },
+    {
+      "id": 4,
+      "doctor_id": 3,
+      "patient_id": 2,
+      "parent_id": null,
+      "alert_id": null,
+      "template_id": null,
+      "custom_message": "Simulation: I am coming!",
+      "is_read": true,
+      "is_from_patient": false,
+      "created_at": "2026-03-24T16:43:28.324Z"
+    },
+    {
+      "id": 5,
+      "doctor_id": 3,
+      "patient_id": 2,
+      "parent_id": 3,
+      "alert_id": null,
+      "template_id": null,
+      "custom_message": "Threaded Reply Simulation",
+      "is_read": true,
+      "is_from_patient": false,
+      "created_at": "2026-03-24T16:53:06.328Z"
+    },
+    {
+      "id": 6,
+      "doctor_id": 3,
+      "patient_id": 2,
+      "parent_id": 2,
+      "alert_id": null,
+      "template_id": null,
+      "custom_message": "ok son daddys home",
+      "is_read": true,
+      "is_from_patient": false,
+      "created_at": "2026-03-24T16:54:39.050Z"
+    },
+    {
+      "id": 7,
+      "doctor_id": 3,
+      "patient_id": 2,
+      "parent_id": null,
+      "alert_id": null,
+      "template_id": null,
+      "custom_message": "[PAIN] Test from Shell Simulation",
+      "is_read": true,
+      "is_from_patient": true,
+      "created_at": "2026-03-24T17:17:23.507Z"
+    },
+    {
+      "id": 8,
+      "doctor_id": 3,
+      "patient_id": 2,
+      "parent_id": null,
+      "alert_id": null,
+      "template_id": null,
+      "custom_message": "[MOBILITY] lack of juice",
+      "is_read": true,
+      "is_from_patient": true,
+      "created_at": "2026-03-25T05:06:20.130Z"
+    },
+    {
+      "id": 9,
+      "doctor_id": 3,
+      "patient_id": 2,
+      "parent_id": 8,
+      "alert_id": null,
+      "template_id": null,
+      "custom_message": "sure thambi meet me",
+      "is_read": true,
+      "is_from_patient": false,
+      "created_at": "2026-03-25T05:06:45.465Z"
+    },
+    {
+      "id": 10,
+      "doctor_id": 3,
+      "patient_id": 2,
+      "parent_id": 9,
+      "alert_id": null,
+      "template_id": null,
+      "custom_message": "[GENERAL] ok mama",
+      "is_read": true,
+      "is_from_patient": true,
+      "created_at": "2026-03-25T05:07:41.201Z"
+    },
+    {
+      "id": 11,
+      "doctor_id": 3,
+      "patient_id": 2,
+      "parent_id": null,
+      "alert_id": null,
+      "template_id": null,
+      "custom_message": "[PAIN] hello",
+      "is_read": true,
+      "is_from_patient": true,
+      "created_at": "2026-03-25T10:06:23.044Z"
+    },
+    {
+      "id": 12,
+      "doctor_id": 3,
+      "patient_id": 2,
+      "parent_id": 11,
+      "alert_id": null,
+      "template_id": 1,
+      "custom_message": "jfkd",
+      "is_read": true,
+      "is_from_patient": false,
+      "created_at": "2026-03-25T10:09:31.573Z"
+    },
+    {
+      "id": 13,
+      "doctor_id": 3,
+      "patient_id": 2,
+      "parent_id": null,
+      "alert_id": null,
+      "template_id": 2,
+      "custom_message": "take dolo",
+      "is_read": true,
+      "is_from_patient": false,
+      "created_at": "2026-03-26T04:27:40.416Z"
+    },
+    {
+      "id": 14,
+      "doctor_id": 3,
+      "patient_id": 2,
+      "parent_id": null,
+      "alert_id": null,
+      "template_id": null,
+      "custom_message": "[PAIN] hbyhy",
+      "is_read": true,
+      "is_from_patient": true,
+      "created_at": "2026-03-26T08:48:20.724Z"
+    }
+  ],
+  "milestone": [
+    {
+      "id": 1,
+      "patient_id": 2,
+      "title": "\ud83c\udf1f First Step",
+      "description": "Logged your very first recovery entry!",
+      "achieved_on": "2026-03-22",
+      "badge_icon": "\ud83c\udf1f"
+    },
+    {
+      "id": 2,
+      "patient_id": 2,
+      "title": "\ud83d\udd25 3-Day Streak",
+      "description": "Logged recovery for 3 days!",
+      "achieved_on": "2026-03-25",
+      "badge_icon": "\ud83d\udd25"
+    }
+  ],
+  "recoverytip": [],
+  "doctornote": [],
+  "feedback": [
+    {
+      "id": 7,
+      "patient_id": 2,
+      "doctor_id": 3,
+      "rating": 4,
+      "comments": "GOOD",
+      "created_at": "2026-03-27T05:18:45.367Z"
+    },
+    {
+      "id": 6,
+      "patient_id": 2,
+      "doctor_id": 3,
+      "rating": 5,
+      "comments": "EY",
+      "created_at": "2026-03-27T01:16:08.010Z"
+    },
+    {
+      "id": 5,
+      "patient_id": 2,
+      "doctor_id": 3,
+      "rating": 5,
+      "comments": "Vardarajan sir is the best",
+      "created_at": "2026-03-25T13:18:52.444Z"
+    },
+    {
+      "id": 4,
+      "patient_id": 2,
+      "doctor_id": 3,
+      "rating": 4,
+      "comments": "thanks effective",
+      "created_at": "2026-03-25T10:07:45.995Z"
+    },
+    {
+      "id": 3,
+      "patient_id": 2,
+      "doctor_id": 3,
+      "rating": 5,
+      "comments": "spicyyyyy",
+      "created_at": "2026-03-25T04:32:52.853Z"
+    },
+    {
+      "id": 2,
+      "patient_id": 2,
+      "doctor_id": 3,
+      "rating": 3,
+      "comments": "niceeee",
+      "created_at": "2026-03-24T13:51:32.253Z"
+    },
+    {
+      "id": 1,
+      "patient_id": 2,
+      "doctor_id": 3,
+      "rating": 3,
+      "comments": "hiiiii",
+      "created_at": "2026-03-24T13:35:41.662Z"
+    }
+  ],
+  "educationalresource": [
+    {
+      "id": 1,
+      "title": "The Orthopedic Recovery Blueprint",
+      "description": "A comprehensive guide to bone and joint healing, including nutrition and safe mobility exercises.",
+      "content": "\n            <h2>Welcome to your Recovery Blueprint</h2>\n            <p>Recovering from orthopedic surgery requires a balanced approach. This guide covers the three pillars of success:</p>\n            <ul>\n                <li><strong>Nutrition:</strong> High protein and calcium intake are critical for bone density and tissue repair.</li>\n                <li><strong>Mobility:</strong> Controlled, low-impact movements prevent stiffness (ankylosis) and blood clots.</li>\n                <li><strong>Pain Management:</strong> Understanding the difference between \"good pain\" (rehab) and \"bad pain\" (injury).</li>\n            </ul>\n            <h2>Day 1-7 Protocol</h2>\n            <p>Focus on RICE (Rest, Ice, Compression, Elevation). Do not overexert. Your primary goal is inflammation reduction.</p>\n        ",
+      "price": "499.00",
+      "thumbnail": "",
+      "is_active": true,
+      "created_at": "2026-03-25T02:14:06.910Z"
+    },
+    {
+      "id": 2,
+      "title": "Cardiac Wellness & Strength",
+      "description": "Understanding heart-healthy habits and stress management after surgery.",
+      "content": "\n            <h2>Your Heart, Re-imagined</h2>\n            <p>Post-cardiac surgery is a new chapter. Let's make it your healthiest one yet.</p>\n            <h3>Daily Habits</h3>\n            <p>Monitoring your blood pressure and heart rate twice daily (morning and evening) is mandatory. Record these in your logs.</p>\n            <h3>Dietary Adjustments</h3>\n            <p>The DASH diet is highly recommended. Reduce sodium to under 1,500mg per day to prevent fluid retention.</p>\n        ",
+      "price": "799.00",
+      "thumbnail": "",
+      "is_active": true,
+      "created_at": "2026-03-25T02:14:06.913Z"
+    },
+    {
+      "id": 3,
+      "title": "Mindful Healing: Mental Health Guide",
+      "description": "Techniques to manage anxiety and stay motivated during long recovery periods.",
+      "content": "\n            <h2>Healing is 50% Mental</h2>\n            <p>It is normal to feel frustrated or depressed during slow recovery. This module teaches you cognitive reframing.</p>\n            <h3>Meditation for Pain</h3>\n            <p>Research shows that 10 minutes of daily mindfulness can reduce perceived pain levels by up to 30%.</p>\n        ",
+      "price": "299.00",
+      "thumbnail": "",
+      "is_active": true,
+      "created_at": "2026-03-25T02:14:06.915Z"
+    },
+    {
+      "id": 4,
+      "title": "Test Payment (1 Rupee)",
+      "description": "A small transaction to verify the real money transfer flow.",
+      "content": "Congrats! Your 1 Rupee payment worked perfectly. This confirms the UPI integration is fully functional.",
+      "price": "1.00",
+      "thumbnail": "",
+      "is_active": true,
+      "created_at": "2026-03-26T15:38:41.659Z"
+    },
+    {
+      "id": 5,
+      "title": "Test Payment (2 Rupee)",
+      "description": "Another small transaction for verification.",
+      "content": "Congrats! Your 2 Rupee payment worked perfectly. This confirms the UPI integration is fully functional.",
+      "price": "2.00",
+      "thumbnail": "",
+      "is_active": true,
+      "created_at": "2026-03-26T15:38:41.663Z"
+    },
+    {
+      "id": 6,
+      "title": "Sample Payment (5 Rupee)",
+      "description": "A 5 Rupee test resource to verify the final real transfer flow.",
+      "content": "Excellent! Your 5 Rupee payment is successful. This confirms the system is perfectly ready for production.",
+      "price": "5.00",
+      "thumbnail": "",
+      "is_active": true,
+      "created_at": "2026-03-26T16:02:00.398Z"
+    }
+  ],
+  "resourcepurchase": [
+    {
+      "id": 1,
+      "user_id": 2,
+      "resource_id": 2,
+      "paytm_order_id": "order_mock_611059",
+      "paytm_txn_id": "pay_mock_mquyab167",
+      "amount_paid": "799.00",
+      "status": "completed",
+      "created_at": "2026-03-25T02:36:18.605Z"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "resource_id": 4,
+      "paytm_order_id": "HLCM5BA730",
+      "paytm_txn_id": null,
+      "amount_paid": "1.00",
+      "status": "pending",
+      "created_at": "2026-03-26T15:47:22.799Z"
+    },
+    {
+      "id": 3,
+      "user_id": 2,
+      "resource_id": 4,
+      "paytm_order_id": "HLCMEB3384",
+      "paytm_txn_id": "608503590048",
+      "amount_paid": "1.00",
+      "status": "completed",
+      "created_at": "2026-03-26T15:51:21.884Z"
+    },
+    {
+      "id": 4,
+      "user_id": 2,
+      "resource_id": 5,
+      "paytm_order_id": "HLCM164E77",
+      "paytm_txn_id": null,
+      "amount_paid": "2.00",
+      "status": "pending",
+      "created_at": "2026-03-26T16:27:41.351Z"
+    },
+    {
+      "id": 5,
+      "user_id": 2,
+      "resource_id": 1,
+      "paytm_order_id": "HLCMBEF512",
+      "paytm_txn_id": null,
+      "amount_paid": "499.00",
+      "status": "pending",
+      "created_at": "2026-03-26T16:36:14.100Z"
+    },
+    {
+      "id": 6,
+      "user_id": 2,
+      "resource_id": 5,
+      "paytm_order_id": "HLCMB892CE",
+      "paytm_txn_id": null,
+      "amount_paid": "2.00",
+      "status": "pending",
+      "created_at": "2026-03-27T03:22:34.375Z"
+    },
+    {
+      "id": 7,
+      "user_id": 2,
+      "resource_id": 3,
+      "paytm_order_id": "HLCMA34DC6",
+      "paytm_txn_id": null,
+      "amount_paid": "299.00",
+      "status": "pending",
+      "created_at": "2026-03-27T05:16:52.541Z"
+    }
+  ],
+  "userotp": [
+    {
+      "id": 1,
+      "user_id": 8,
+      "otp": "811918",
+      "created_at": "2026-03-25T08:04:51.653Z"
+    },
+    {
+      "id": 3,
+      "user_id": 2,
+      "otp": "856387",
+      "created_at": "2026-03-25T08:08:03.390Z"
+    }
+  ]
+}
